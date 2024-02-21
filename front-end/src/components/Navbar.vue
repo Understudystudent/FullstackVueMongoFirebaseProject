@@ -4,9 +4,14 @@
         <div class="logo-wrap">
           <img :src="logo" />
         </div>
+        <router-link to="/home" class="about-link">
+          <p>Home</p>
+        </router-link>
+        <router-link to="/about" class="about-link">
+          <p>login</p>
+        </router-link>
         <router-link to="/cart" class="cart-link">
             <button>Shopping Cart</button>
-
         </router-link>
       </div>
     </router-link>

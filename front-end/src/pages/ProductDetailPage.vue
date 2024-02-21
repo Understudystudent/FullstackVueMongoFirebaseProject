@@ -6,6 +6,7 @@
       <div class="product-details">
         <h1>{{ product.name }}</h1>
         <h3 class="price">{{ product.price }}</h3>
+        <h3 class="description">{{ product.description }}</h3>
         <button class="add-to-cart">Add to cart</button>
       </div>
   </div>

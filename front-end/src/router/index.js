@@ -7,6 +7,16 @@ const routes = [
       component: ()=> import('../pages/ShoppingCartPage.vue'),
     },
     {
+      path: '/about',
+      name: 'AboutPage',
+      component: ()=> import('../pages/AboutPage.vue'),
+    },
+    {
+      path: '/home',
+      name: 'HomePage',
+      component: ()=> import('../pages/AboutPage.vue'),
+    },
+    {
         path: '/products/:productId',
         name: 'ProductDetailPage',
         component: ()=> import('../pages/ProductDetailPage.vue'),
